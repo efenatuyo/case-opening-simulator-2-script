@@ -1,7 +1,7 @@
-if game:HttpGet('https://BustlingIndolentRectangles.rfrrgf.repl.co/online') ~= "5.1" then
+if "5.1" ~= "5.1" then
     game.Players.LocalPlayer:Kick("Script is currently not avaible. Join https://discord.gg/ShPfNEP3u6")
   else
- if game:HttpGet('https://BustlingIndolentRectangles.rfrrgf.repl.co/check_key?X-UserID=' .. game.Players.LocalPlayer.UserId) ~= "1" then
+ if "1" ~= "1" then
     game.Players.LocalPlayer:Kick("Noob get a key. Join https://discord.gg/ShPfNEP3u6")
  else 
   local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
